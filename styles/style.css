@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.right-block {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.right-block-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-block {
+    height: 300px;
+    width: 220px;
+    background-color: #2157A6;
+}
+
+.button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #de55fd;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-block--ul {
+    list-style-type: none;
+    background-color: #2157A6;
+    width: 450px;
+    padding-top: 15px;
+    min-height: 300px;
+    margin-bottom: 17px;
+}
+
+.right-block--ul-li {
+    margin: 20px 0;
+    width: 350px;
+    font-weight: 600;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #2157A6;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.under-line {
+    text-decoration: underline;
+}
+
+.h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #2157A6;
+}
+
+.tech {
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    color: #fff;
+    background-color: #2157A6;
+    margin: 0 auto;
+    padding-bottom: 4px;
+}
+
+.tech-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-text--span {
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.span-title {
+    margin-top: 7px;
+}
+
+.left-block {
+    text-align: start;
+}
+
+.back-to-home {
+    display: flex;
+    width: 150px;
+    background-color:#2157A6;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.back-to-home span{
+    margin: 0 auto;
+    align-self: center;
+    color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.left-block--ul {
+    list-style-type: none;
+}
+
+.left-block--ul li {
+    background-color: #de55fd;
+    margin: 10px 0;
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
