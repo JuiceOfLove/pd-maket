@@ -110,6 +110,15 @@
     margin-top: 7px;
 }
 
+.vl {
+    border-left: 3px solid #2157A6;
+    height: 381px;
+    position: absolute;
+    left: 50%;
+    margin-left: 253px;
+    top: 104px;
+}
+
 .left-block {
     text-align: start;
 }
